@@ -1,0 +1,106 @@
+:root{
+	--branco: #FFFFFF;
+	--azul-escuro: #001745;
+	--turquesa: #4EC799;
+	--verde: #00A659;
+	--turquesa-claro: #9BCCAF;
+}
+
+body{
+    background-color: var(--branco);
+	font-size: 20px;
+	font-family: 'Raleway', serif;
+}
+
+.navbar{
+    background-color: #dfefe5;
+}
+
+#Nav{
+	padding-inline: 50px;
+}
+
+#search{
+	background-color: #c4c4c4;
+	border-radius: 15px;
+	width: 350px;
+	margin: auto;
+}
+
+.bi-search{
+	font-size: 20px;
+}
+
+nav li{
+	width: fit-content;
+}
+
+.nav-link:link, .nav-link:visited{
+	color: black;
+}
+
+.nav-link:hover, .active{
+	color: var(--verde);
+}
+
+.barra{
+	background-color: var(--verde);
+	width: 2%;
+	height: 80vh;
+	margin-bottom: 10%;
+	margin-left: 5%;
+}
+
+#img2{
+	background-image: url('img2.png');
+}
+
+.imagem{
+	background-image: url('img.png');
+	width: 70%;
+	height: 80vh;
+	border-radius: 15px;
+	margin-bottom: 10%;
+	margin-right: 20%;
+}
+
+#espaco{
+	height: 10ex;
+}
+
+h2{
+	font-size: 40px;
+}
+
+.glossario{
+	background-color: #e8eaee;
+	padding-inline: 3%;
+	padding-block: 5%;
+	width: 70%;
+	margin: auto;
+}
+
+.conteudo{
+	padding-block: 100px;
+	margin-left: 100px;
+	padding-left: 100px;
+}
+.p1 p{
+	margin: auto;
+	font-size: 10px;
+}
+#conteudo{
+	margin-left: 50px;
+	margin-right: 50px;
+	
+}
+
+.glossarioDoc{
+	background-color: #e8eaee;
+	padding-inline: 7%;
+	padding-block: 4%;
+	padding-left: 15%;
+	width: 70%;
+	margin-left: 250px;
+	margin-bottom: 70px;
+}
